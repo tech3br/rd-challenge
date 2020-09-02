@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "pl",
+    "standard",
+    "plugin:vue/essential",
+    "@vue/standard",
+    "@vue/typescript",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:json/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module",
+    "ecmaVersion": 6
+  },
+  "plugins": ["react", "js"],
+  "rules": {
+    "comma-style": "off",
+""
+  }
+}

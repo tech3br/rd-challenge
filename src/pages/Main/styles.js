@@ -14,31 +14,15 @@ export const Container = styled.div`
 
 export const Header = styled.header`
   display: flex;
-  width: 100%;
+  width: 90%;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
-  ${media.between('100px', '466px')`
-    width: 30%;
-  `}
-
   ${media.between('467px', '799px')`
-    width: 40%;
-  `}
-
-  ${media.between('800px', '999px')`
-    width: 60%;
-  `}
-
-  ${media.between('1000px', '1279px')`
     width: 80%;
-  `}
-
-  ${media.greaterThan('1280px')`
-    width: 100%;
   `}
 `;
 
@@ -130,7 +114,9 @@ export const Main = styled.main`
     > p {
       color: #868686;
       margin-top: 20px;
-      width: 51vw;
+      margin-right: 0px;
+      width: 88vw;
+      font-size: 1em;
     }
   }
 
